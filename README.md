@@ -48,4 +48,4 @@ Please visit our [project page](https://kaist-viclab.github.io/C-DiffSET_site/) 
 The source codes including the checkpoint can be freely used for research and education only. Any commercial use should get formal permission from the principal investigator (Prof. Munchurl Kim, mkimee@kaist.ac.kr).
 
 ## Acknowledgement
-This repository is built upon [FMA-Net](https://github.com/KAIST-VICLab/FMA-Net/.
+This repository is built upon [FMA-Net](https://github.com/KAIST-VICLab/FMA-Net/).
