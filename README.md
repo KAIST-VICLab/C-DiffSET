@@ -40,7 +40,7 @@ This repository is the official PyTorch implementation of "C-DiffSET: Leveraging
 
 ## 📧 News
 - **⚠ The code will be released later**
-- **Nov 16, 2024:** This repository is created
+- **Dec 9, 2024:** This repository is created
 
 ---
 
