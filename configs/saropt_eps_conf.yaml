@@ -1,0 +1,50 @@
+seed: 2024
+num_worker: 4
+work_dir: ./work_dir/saropt_eps_conf/
+
+phase: train
+
+# feeder
+feeder: feeders.feeder.SAROptFeeder
+train_feeder_args:
+  dataroot: /path/to/sar2opt/
+  listroot: ./data/SAROpt_split/train_eo_list.txt
+  load_size: 600
+  crop_size: 512
+  hflip: True
+  vflip: True
+  rot: True
+
+test_feeder_args:
+  dataroot: /path/to/sar2opt/
+  listroot: ./data/SAROpt_split/test_eo_list.txt
+  load_size: 600
+  crop_size: 512
+
+# optim
+optimizer: AdamW
+learning_rate: 3e-5
+weight_decay: 0.01
+lr_scheduler: cosine
+num_iter: 50000
+num_warmup: 100
+
+# loss
+prediction_type: epsilon
+
+# logging
+log_iter: 100
+save_iter: 2000
+save_epoch: 50
+eval_epoch: 10
+
+# training
+gpu: 0
+batch_size: 16
+test_batch_size: 1
+pretrained_model_name_or_path: Manojb/stable-diffusion-2-1-base
+accelerator_path: /path/to/pretrained/saropt/lastest/model.safetensors
+
+# test
+num_inference_steps: 50
+val_len: 100

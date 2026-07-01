@@ -1,0 +1,25 @@
+# Core deep-learning stack
+torch
+torchvision
+
+# Diffusion / Transformers
+diffusers>=0.21.0
+transformers
+accelerate
+safetensors
+
+# Metrics
+torchmetrics
+lpips
+pytorch-fid
+
+# Data I/O and augmentation
+albumentations
+tifffile
+Pillow
+numpy
+PyYAML
+tqdm
+
+# Optional: fast PNG decoding for the Stellar feeder
+pyspng

@@ -1,0 +1,33 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Training artifacts
+work_dir/
+results/
+*.log
+*_log.txt
+
+# Checkpoints / weights
+*.safetensors
+*.ckpt
+*.pth
+*.pt
+
+# Generated split lists
+data/*_split/
+
+# Datasets (do not commit raw data)
+datasets/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
