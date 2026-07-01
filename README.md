@@ -13,6 +13,14 @@ Official PyTorch implementation of the paper **"C-DiffSET: Leveraging Latent Dif
 
 ---
 
+## 📰 News
+
+- **Jul 1, 2026:** Code and pretrained models are released. 🎉
+- **Jun 1, 2026:** C-DiffSET is accepted to IEEE TCSVT. 🎉
+- **Dec 9, 2024:** This repository is created.
+
+---
+
 ## Overview
 
 SAR imagery works in all weather and lighting conditions but is hard to interpret because of speckle noise and its unusual structure. **C-DiffSET** translates SAR into EO (electro-optical) imagery by **fine-tuning a pretrained Latent Diffusion Model (Stable Diffusion v2.1)** rather than training from scratch, which mitigates overfitting on the small paired SAR–EO datasets.
