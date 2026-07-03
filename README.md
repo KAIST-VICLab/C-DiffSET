@@ -9,6 +9,7 @@ Official PyTorch implementation of the paper **"C-DiffSET: Leveraging Latent Dif
 <sup>&dagger;</sup> Corresponding author
 
 [![Paper](https://img.shields.io/badge/DOI-10.1109%2FTCSVT.2026.3701447-blue)](https://doi.org/10.1109/TCSVT.2026.3701447)
+[![arXiv](https://img.shields.io/badge/arXiv-2411.10788-red)](https://arxiv.org/abs/2411.10788)
 [![Project Page](https://img.shields.io/badge/Project%20Page-C--DiffSET-green)](https://kaist-viclab.github.io/C-DiffSET_site/)
 
 ---
