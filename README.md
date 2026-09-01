@@ -16,7 +16,8 @@ Official PyTorch implementation of the paper **"C-DiffSET: Leveraging Latent Dif
 
 ## 📰 News
 
-- **Jul 1, 2026:** Code and pretrained models are released. 🎉
+- **Sep 1, 2026:** Check our new work [ReFlowSET](https://github.com/KAIST-VICLab/ReFlowSET), a representation-aligned latent flow-matching framework for SAR-to-EO image translation with code & checkpoints for all benchmarked methods fully released! ❤️
+- **Jul 1, 2026:** Code are released. 🎉
 - **Jun 1, 2026:** C-DiffSET is accepted to IEEE TCSVT. 🎉
 - **Dec 9, 2024:** This repository is created.
 
