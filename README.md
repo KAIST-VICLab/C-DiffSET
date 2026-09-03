@@ -108,6 +108,16 @@ Edit the `dataroot` and `accelerator_path` fields in `configs/*.yaml` (they curr
 
 `accelerator_path` in each config should point to a **SAR-conditioned U-Net** checkpoint (8-in / 4-out, i.e. C-DiffSET *without* the confidence channel). Training then adds the 5th variance channel on top of it.
 
+### 1. Stage 1 Checkpoint (`accelerator_path`)
+`accelerator_path` in each config should point to the **`sd21ft`** checkpoint (8-in / 4-out, SAR-conditioned U-Net *without* the confidence channel). Training then adds the 5th channel on top of it.
+- Download `sd21ft` for QXS-SAROPT: [[HuggingFace Link]](https://huggingface.co/JeonghyeokDo/ReFlowSET/tree/main/baselines/qxs-saropt/sd21ft)
+- Download `sd21ft` for SAR2Opt: [[HuggingFace Link]](https://huggingface.co/JeonghyeokDo/ReFlowSET/tree/main/baselines/sar2opt/sd21ft)
+
+### 2. Final Pretrained Checkpoints
+We provide the final C-DiffSET checkpoints:
+- **QXS-SAROPT**: [[HuggingFace Link]](https://huggingface.co/JeonghyeokDo/ReFlowSET/tree/main/baselines/qxs-saropt/cdiffset)
+- **SAR2Opt**: [[HuggingFace Link]](https://huggingface.co/JeonghyeokDo/ReFlowSET/tree/main/baselines/sar2opt/cdiffset)
+  
 ---
 
 ## Training
