@@ -217,6 +217,17 @@ If you find this work useful, please cite:
 }
 ```
 
+Our follow-up SAR-to-EO work using Latent Flow Matching:
+
+```bibtex
+@article{do2026reflowset,
+  title   = {ReFlowSET: Representation-Aligned Latent Flow Matching for SAR-to-EO Image Translation},
+  author  = {Do, Jeonghyeok and Lee, Seungchul and Kim, Munchurl},
+  journal = {arXiv preprint arXiv:2609.00968},
+  year    = {2026}
+}
+```
+
 ---
 
 ## Acknowledgements
