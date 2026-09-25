@@ -1,4 +1,4 @@
-# C-DiffSET: Leveraging Latent Diffusion for SAR-to-EO Image Translation with Confidence-Guided Reliable Object Generation
+# [IEEE TCSVT 2026] C-DiffSET: Leveraging Latent Diffusion for SAR-to-EO Image Translation with Confidence-Guided Reliable Object Generation
 
 Official PyTorch implementation of the paper **"C-DiffSET: Leveraging Latent Diffusion for SAR-to-EO Image Translation with Confidence-Guided Reliable Object Generation"**, accepted to **IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), 2026**.
 
