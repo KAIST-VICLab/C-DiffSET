@@ -219,11 +219,11 @@ If you find this work useful, please cite:
 
 ```bibtex
 @article{do2026cdiffset,
-  title   = {C-DiffSET: Leveraging Latent Diffusion for SAR-to-EO Image Translation with Confidence-Guided Reliable Object Generation},
-  author  = {Do, Jeonghyeok and Lee, Jaehyup and Lee, Seungchul and Kim, Munchurl},
-  journal = {IEEE Transactions on Circuits and Systems for Video Technology},
-  year    = {2026},
-  doi     = {10.1109/TCSVT.2026.3701447}
+  title={C-diffset: Leveraging latent diffusion for sar-to-eo image translation with confidence-guided reliable object generation},
+  author={Do, Jeonghyeok and Lee, Jaehyup and Lee, Seungchul and Kim, Munchurl},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology},
+  year={2026},
+  publisher={IEEE}
 }
 ```
 
