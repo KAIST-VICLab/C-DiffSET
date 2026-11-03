@@ -227,14 +227,28 @@ If you find this work useful, please cite:
 }
 ```
 
-Our follow-up SAR-to-EO work using Latent Flow Matching:
+### Follow-up work
+
+**[ReFlowSET](https://github.com/KAIST-VICLab/ReFlowSET)** ([project page](https://kaist-viclab.github.io/ReFlowSET_site/)), IEEE GRSL 2026: SAR-to-EO translation with latent flow matching.
 
 ```bibtex
 @article{do2026reflowset,
   title   = {ReFlowSET: Representation-Aligned Latent Flow Matching for SAR-to-EO Image Translation},
   author  = {Do, Jeonghyeok and Lee, Seungchul and Kim, Munchurl},
-  journal = {arXiv preprint arXiv:2609.00968},
-  year    = {2026}
+  journal={IEEE Geoscience and Remote Sensing Letters},
+  year={2026},
+  publisher={IEEE}
+}
+```
+
+**[GeoSET](https://github.com/KAIST-VICLab/GeoSET)** ([project page](https://kaist-viclab.github.io/GeoSET_site/)), arXiv 2026: generalist foundation model for SAR-to-EO translation.
+
+```bibtex
+@article{do2026geoset,
+  title={GeoSET: Generalist Foundation Model for SAR-to-EO Image Translation},
+  author={Do, Jeonghyeok and Kim, Munchurl},
+  journal={arXiv preprint arXiv:2609.37496},
+  year={2026}
 }
 ```
 
